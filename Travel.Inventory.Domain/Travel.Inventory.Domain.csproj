@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel" Version="4.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+    <PackageReference Include="System.Linq.Async" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Travel.Inventory.Domain.Contracts\Travel.Inventory.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\Travel.Inventory.Infrastructure\Travel.Inventory.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

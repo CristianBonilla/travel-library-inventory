@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{E9EF94A8-31F6-4CFF-BCDC-F2EB22D01A28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Inventory.API", "Travel.Inventory.API\Travel.Inventory.API.csproj", "{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Inventory.Infrastructure", "Travel.Inventory.Infrastructure\Travel.Inventory.Infrastructure.csproj", "{ECF2C248-45F4-485C-9952-937290ECA4C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Inventory.Domain", "Travel.Inventory.Domain\Travel.Inventory.Domain.csproj", "{634B0864-D8C9-4D88-BDCE-EFC1E3CA2BE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Inventory.Domain.Contracts", "Travel.Inventory.Domain.Contracts\Travel.Inventory.Domain.Contracts.csproj", "{8EBC6D56-271E-4A57-BCC0-2B000F6A77BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.Inventory.Test", "Travel.Inventory.Test\Travel.Inventory.Test.csproj", "{BAE33128-D61A-402F-AD4B-2CDEBA6D9227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFA7736E-9AB8-4012-8B1F-E23ABF2815D8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF2C248-45F4-485C-9952-937290ECA4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF2C248-45F4-485C-9952-937290ECA4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF2C248-45F4-485C-9952-937290ECA4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF2C248-45F4-485C-9952-937290ECA4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634B0864-D8C9-4D88-BDCE-EFC1E3CA2BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634B0864-D8C9-4D88-BDCE-EFC1E3CA2BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634B0864-D8C9-4D88-BDCE-EFC1E3CA2BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634B0864-D8C9-4D88-BDCE-EFC1E3CA2BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBC6D56-271E-4A57-BCC0-2B000F6A77BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBC6D56-271E-4A57-BCC0-2B000F6A77BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBC6D56-271E-4A57-BCC0-2B000F6A77BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBC6D56-271E-4A57-BCC0-2B000F6A77BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE33128-D61A-402F-AD4B-2CDEBA6D9227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE33128-D61A-402F-AD4B-2CDEBA6D9227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE33128-D61A-402F-AD4B-2CDEBA6D9227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE33128-D61A-402F-AD4B-2CDEBA6D9227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E5F4AC8-B770-44D1-8160-050EDCFD0F2C} = {E9EF94A8-31F6-4CFF-BCDC-F2EB22D01A28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {155C5A16-B815-4B16-A4F7-3FD4DF02BAD9}
+	EndGlobalSection
+EndGlobal
