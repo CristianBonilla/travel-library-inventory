@@ -1,4 +1,4 @@
-# Travel Libary Inventory
+# Travel Libary Inventory Backend
 
 Create an API to manage the inventory of the "TRAVEL" library. Taking into account:
 
